@@ -2,10 +2,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background-image: url('http://www.allwlpr.com/wp-content/uploads/2013/12/galaxy-star-wallpaper-74.jpg'); 
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 18px; 
+  color: #F8F8FF;}
 
 body {
   margin: 80px 0; }
@@ -21,6 +21,7 @@ h1.title {
   margin: 0;
   display: block;
   float: left; }
+  
 
 @-webkit-keyframes move-up {
   0% {
@@ -53,7 +54,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #2F63B1;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -101,7 +102,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #00BFFF;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -149,7 +150,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #ADB5BB;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -307,72 +308,69 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background: #000000;
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 0px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background-image: url('http://www.rb.ru/imgthumb/20101224193220.jpg');
+    /*color: rgba(255,255,255,1);*/
+     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background-image: url('http://icons.iconarchive.com/icons/jonathan-rey/star-wars-characters/128/Luke-Skywalker-03-icon.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background-image: url('http://www.highdefdigest.com/blog/wp-content/uploads/2011/05/thumb-solo-3.jpg');
+     }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background-image: url('http://obi-tom-kenobi.w.interia.pl/images/amidala1.gif');
+     }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    background-image: url('http://store.dottorgadget.it/165-284-medium/.jpg');
+    }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    background-image: url('http://www.highdefdigest.com/blog/wp-content/uploads/2011/05/thumb-fett-4.jpg');
+     }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    background-image: url('http://icons.iconarchive.com/icons/jonathan-rey/star-wars-characters/128/Chewbacca-icon.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
+    background-image: url('http://i.cdn.turner.com/tntla/images/all/specials/star_wars_maraton/tools/img/descargas/avatars/obi_wan_kenobi_01.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
+    background-image: url('http://obi-tom-kenobi.w.interia.pl/images/windu.gif');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
+    background-image: url('http://www.highdefdigest.com/blog/wp-content/uploads/2011/06/thumb-vader-champ.jpg');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
+    background-image: url('http://www.extra.cz/images/thumbs/e3/76/e376caf-11966-prase-s-yodou2-107x107-crop.jpg');
     color: #f9f6f2;
-    background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
+    background-image: url('');
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -488,7 +486,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #2F63B1;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
